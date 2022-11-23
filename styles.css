@@ -1,0 +1,107 @@
+.cabecalho {
+    width: 940px;
+    height: 300px;
+    margin: 0 auto 3em auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #363636;
+    font-family: 'Roboto Slab';
+}
+
+.cabecalho__imagem {
+    height: 20vh;
+}
+
+.cabecalho__titulo {
+    color: #ffffff;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.secao__tabela {
+    width: 300px;
+    margin: 0 auto;
+    font-family: 'Roboto Slab';
+}
+
+.tabela, td {
+    border: 1px solid #000000;
+    text-align: center;
+    padding: .3em;
+    width: 200px;
+}
+
+.tabela__cabecalho {
+    background-color: #363636;
+    color: #ffffff;
+}
+
+.tabela__linha {
+    padding: .5em;
+    font-size: .8em;
+}
+
+.conteudo__principal {
+    width: 940px;
+    height: 200px;
+    margin: 3em auto 0 auto;
+    font-family: 'Roboto Slab';
+}
+
+#inTempo, #inValor {
+    display: block;
+    width: 15em;
+    margin: 1em 0;
+    padding: 5px;
+}
+
+.botao__enviar {
+    background-color: #363636;
+    color: #ffffff;
+    font-size: 1em;
+    border: none;
+    padding: 1em;
+    border-radius: 8px;
+}
+
+.conteudo__resposta {
+    width: 940px;
+    margin: 1em auto 0 auto;
+    font-family: 'Roboto Slab';
+    font-size: 1.3em;
+}
+
+#outResp1 {
+    margin: 0 0 .5em 0;
+}
+
+@media screen and (max-width: 390px) {
+    .cabecalho {
+        width: 100vw;
+    }
+
+    .cabecalho__titulo {
+        font-size: 2em;
+    }
+
+    .tabela {
+        width: 50vw;
+        margin: 0 auto 1em auto;
+    }
+
+    .conteudo__principal {
+        width: 50vw;
+        margin: .5em auto 0 auto;
+    }
+
+    #inTempo, #inValor {
+        border: 1px solid #000000;
+    }
+
+    .conteudo__resposta {
+        width: 50vw;
+        margin: 1em auto 0 auto;
+    }
+}
+
